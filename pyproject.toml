@@ -11,20 +11,20 @@ requires = [
 ]
 
 [project]
-name = "circuitpython-hdc1080"
+name = "circuitpython-sps30"
 description = ""
 version = "0.0.0+auto.0"
 readme = "README.rst"
 authors = [
     {name = "sensebox"}
 ]
-urls = {Homepage = "https://github.com/sensebox/CircuitPython_HDC1080"}
+urls = {Homepage = "https://github.com/sensebox/CircuitPython_SPS30"}
 keywords = [
     "adafruit",
     "blinka",
     "circuitpython",
     "micropython",
-    "hdc1080",
+    "sps30",
 ]
 license = {text = "MIT"}
 classifiers = [
@@ -40,7 +40,7 @@ dynamic = ["dependencies", "optional-dependencies"]
 [tool.setuptools]
 # TODO: IF LIBRARY FILES ARE A PACKAGE FOLDER,
 #       CHANGE `py_modules = ['...']` TO `packages = ['...']`
-py-modules = ["hdc1080"]
+py-modules = ["sps30"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}

@@ -52,7 +52,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "CircuitPython HDC1080 Library"
+project = "CircuitPython SPS30 Library"
 creation_year = "2024"
 current_year = str(datetime.datetime.now().year)
 year_duration = (
@@ -151,8 +151,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "CircuitPython_HDC1080_Library.tex",
-        "CircuitPython HDC1080 Library Documentation",
+        "CircuitPython_SPS30_Library.tex",
+        "CircuitPython SPS30 Library Documentation",
         author,
         "manual",
     ),
@@ -165,8 +165,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "CircuitPython_HDC1080_Library",
-        "CircuitPython HDC1080 Library Documentation",
+        "CircuitPython_SPS30_Library",
+        "CircuitPython SPS30 Library Documentation",
         [author],
         1,
     ),
@@ -180,10 +180,10 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "CircuitPython_HDC1080_Library",
-        "CircuitPython HDC1080 Library Documentation",
+        "CircuitPython_SPS30_Library",
+        "CircuitPython SPS30 Library Documentation",
         author,
-        "CircuitPython_HDC1080_Library",
+        "CircuitPython_SPS30_Library",
         "One line description of project.",
         "Miscellaneous",
     ),
